@@ -1,5 +1,11 @@
+import Dashboard from "./Pages/Dashboard/Dashboard";
+
 function App() {
-  return <>HI I amhe mehse</>;
+  return (
+    <>
+      <Dashboard />
+    </>
+  );
 }
 
 export default App;
