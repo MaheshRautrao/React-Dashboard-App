@@ -1,16 +1,7 @@
-import SideNavbar from "../../components/SideNavbar";
-import TopNav from "../../components/TopNav";
-import { Flex, Box } from "@chakra-ui/react";
+import DashboardLayout from "../../components/DashboardLayout";
 
 const Dashboard = () => {
-  return (
-    <Flex>
-      <SideNavbar />
-      <Box flexGrow="1">
-        <TopNav />
-      </Box>
-    </Flex>
-  );
+  return <DashboardLayout title="Dashboard"></DashboardLayout>;
 };
 
 export default Dashboard;

@@ -10,11 +10,11 @@ import {
 } from "@chakra-ui/react";
 import { FaUserTie } from "react-icons/fa";
 
-const Topnav = () => {
+const Topnav = ({ title }) => {
   return (
     <Flex boxShadow="lg" py="2" justify="space-between" px="50px">
       <Heading fontSize="2xl" cursor="pointer">
-        Dashboard
+        {title}
       </Heading>
       <Box>
         <Menu>
